@@ -24,6 +24,10 @@ body {
     margin-top: 1rem;
 }
 
+.section {
+    padding: 3rem 0;
+}
+
 .section-title {
     margin-top: 3rem;
     margin-bottom: 2rem;
@@ -40,4 +44,39 @@ body {
 
 .contact-form input, .contact-form textarea {
     margin-bottom: 1rem;
+}
+
+.btn-modal {
+    margin-top: 1rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .section-title {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero h1 {
+        font-size: 1.5rem;
+    }
+
+    .hero p {
+        font-size: 0.875rem;
+    }
+
+    .section-title {
+        font-size: 1.25rem;
+    }
 }
